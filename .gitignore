@@ -1,0 +1,43 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Binary
+prime
+bin/
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+.env
+.mcp.json
+aidocs/
+*.log
+test/
+scripts/
+
+# Debug
+debug/
+*.debug
+debug.test
+
+# Dependencies
+vendor/
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.tmp
